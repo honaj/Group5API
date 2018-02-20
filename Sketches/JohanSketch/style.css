@@ -1,0 +1,20 @@
+/* body { background-color: #222 }
+
+
+
+.box1 {left: 50px; background-color: #9C27B0;}
+.box2 {left: 250px; background-color: #673AB7;} */
+
+.box {
+    width: 150px; height: 150px;
+    position: absolute;
+    font-size: 50px;
+    line-height:150px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#startButton{
+    z-index: 1;
+}
