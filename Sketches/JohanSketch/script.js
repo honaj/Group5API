@@ -1,7 +1,7 @@
 let startButton = document.getElementById("startButton");
 startButton.addEventListener("mousedown", startAnimating);
 let divs = [];
-let space = 200;
+let space = 100;
 let x = 0;
 let y = 0;
 
