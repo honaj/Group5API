@@ -23,7 +23,6 @@ function buildGrid()
                 newDiv.setAttribute("class", "box");
                 //newDiv.style.backgroundColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
                 newDiv.style.backgroundColor = "black";
-                newDiv.style.opacity= 1;
                 newDiv.style.left = x + "px";
                 newDiv.style.top = y + "px";
                 document.body.appendChild(newDiv);
@@ -41,7 +40,7 @@ function startAnimating()
         let r = Math.floor(Math.random() * 2000);
         console.log(r);
         //let tempTween = KUTE.to(divs[i],{translate: 100}, {repeat:1000, yoyo:true});
-        var tempTween = KUTE.fromTo(divs[i],{translate3d:[0, 0, -i]},{translate3d:[i * 10, i * 4, i]}, {repeat:1000, yoyo:true, parentPerspective: 100, duration: 2500});
+        var tempTween = KUTE.fromTo(divs[i],{translate3d:[0, 0, 0]},{translate3d:[i * 10, i * 5, i * -.5]}, {repeat:1000, yoyo:true, parentPerspective: 100, duration: 2500});
         tempTween.start();
     }
 }
