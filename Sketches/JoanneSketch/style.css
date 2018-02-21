@@ -1,0 +1,89 @@
+body { background-color: #222}
+
+.box {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 40px;
+    color: #fff;
+    font-size: 30px;
+    line-height:150px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.box1 {left: 50px; background-color: #9C27B0;}
+.box2 {left: 250px; background-color: #673AB7;}
+.box3 {left: 450px; background-color: #E91E63;}
+.box4 {left: 650px; background-color: #FF5722;}
+
+
+.square {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    display: inline-block;
+    margin: 20px 10px;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  
+.a { left: 50px; top: 250px; background: darkgreen;}
+.b { left: 250px; top: 250px; background: green;}
+.c { left: 450px; top: 250px; background: greenyellow;}
+  
+button {
+    position: relative;
+    left: 100px; top: 430px;
+    background: rgb(255, 255, 255);
+    border: transparent;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-weight: 300;
+    text-align: center;
+}
+
+.color {
+    width: 100px; height: 100px;
+    position: absolute; top:550px; left: 300px;
+    color: #fff;
+    font-size: 30px;
+    line-height:100px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #9C27B0;
+    border-width: 25px;
+    border-style: solid;
+    border-color: #9C27B0;
+}
+
+svg {
+    width: 450px;
+    top:570px; left: 55px;
+    position: absolute; 
+    /* overflow: visible; */
+}
+  
+
+.text {
+    position: absolute; top:520px; left: 50px;
+    /* font-size: 50px; */
+    line-height:50px;
+    font-family: sans-serif;
+    font-weight: bold; 
+    color: #fff;
+}
+
+.text span {
+    line-height: inherit; 
+    opacity: 0; display: inline-block;
+    vertical-align: top;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "programming2",
+  "version": "1.0.0",
+  "description": "sketch of kute.js",
+  "main": "index.js",
+  "dependencies": {
+    "kute.js": "^1.6.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honaj/Group5API.git"
+  },
+  "author": "joanneju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/honaj/Group5API/issues"
+  },
+  "homepage": "https://github.com/honaj/Group5API#readme"
+}
