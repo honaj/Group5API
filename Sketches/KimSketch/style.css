@@ -1,0 +1,20 @@
+body { background-color: #222 }
+
+.box {
+    width: 150px; height: 150px;
+    position: absolute; top:35px;
+    color: #fff;
+    font-size: 50px;
+    line-height:150px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.box1 {left: 50px; background-color: #9C27B0;}
+.box2 {left: 250px; background-color: #673AB7;}
+.box3 {left: 450px; background-color: #E91E63;}
+.box4 {left: 650px; background-color: #FF5722;}
+.box5 {left: 850px; background-color: rgb(241, 31, 161);}
+.box6 {left: 1050px; background-color: rgb(21, 228, 159);}
