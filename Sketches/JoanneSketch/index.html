@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Joanne's sketch with KUTE.js</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="container">
+
+  <div class="box box1">sketch!</div>
+  <div class="box box2">translate</div>
+  <div class="box box3">&</div>
+  <div class="box box4">rotate</div>
+
+  <div class="square a"></div>
+  <div class="square b"></div>
+  <div class="square c"></div>
+  <button class="opacity">Animate Opacity</button>
+  <button class="radi">Animate Radius</button>
+  <button class="chain">Chain Animations</button>
+  <button class="loop">Play in a Loop</button>
+
+  <div class="color">color</div>
+
+  <div id="wrapper"> 
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" >
+    <path id="icon1" fill="teal" d="M102.5,11.9L131.2,70L195.4,79.3L148.9,124.6L159.9,188.5L102.5,158.3L45.1,188.5L56.1,124.6L9.6,79.3L73.8,70Z" />
+    <path id="icon2" style="visibility:hidden" d="M146.5,15L51.5,15L4,97.3L51.5,179.6L146.5,179.6L194.1,97.3Z"/>
+  </svg>
+  </div>
+
+  <div class="text">Click Star</div>
+
+</div>
+
+<script src='node_modules/kute.js/kute.js'></script>
+<script src='node_modules/kute.js/kute-css.js'></script>
+<script src='node_modules/kute.js/kute-svg.js'></script>
+<script src='node_modules/kute.js/kute-attr.js'></script>
+<script src='node_modules/kute.js/kute-text.js'></script>
+<!-- <script src='https://cdn.jsdelivr.net/kute.js/1.5.0/kute.min.js'></script> -->
+
+<script  src="script.js"></script>
+
+
+</body>
+
+</html>
