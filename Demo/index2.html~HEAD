@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  
+  
+  
+      <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+<<<<<<< HEAD:Demo/index2.html
+    
+    <script src='node_modules/kute.js/kute.js'></script>
+    <script src='node_modules/kute.js/kute-css.js'></script>
+    <script src='node_modules/kute.js/kute-svg.js'></script>
+    <script src='node_modules/kute.js/kute-attr.js'></script>
+<!--     <script src='https://cdn.jsdelivr.net/kute.js/1.5.0/kute.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/kute.js/1.5.0/kute-css.min.js'></script> -->
+    
+    <script src="grid.js"></script>
+    
+=======
+
+  <h1>Welcome!</h1>
+<div class="button"> Button
+  <a class="button" href="index.html"></a>
+</div>
+
+  <script src='node_modules/kute.js/kute.js'></script>
+  <script src='node_modules/kute.js/kute-css.js'></script>
+  <script src='node_modules/kute.js/kute-svg.js'></script>
+  <script src='node_modules/kute.js/kute-attr.js'></script>
+
+  
+
+    <script  src="scriptpageone.js"></script>
+
+
+
+
+>>>>>>> master:Demo/index.html
+</body>
+
+</html>
