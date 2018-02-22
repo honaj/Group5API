@@ -1,7 +1,5 @@
 let x = 0;
 let y = 0;
-let gridSizeX = 4;
-let gridSizeY = 2;
 let space = 250;
 
 function makeThumb()
@@ -33,15 +31,15 @@ function makeThumb()
     }
 }
 
-for(let i = 0; i < gridSizeX; i++)
+for(let i = 0; i < Math.round(window.innerWidth / space); i++)
 {
-    x += space;
     y = 0;
-    for(let i = 0; i < gridSizeY; i++)
+    for(let i = 0; i < Math.round(window.innerHeight / space); i++)
     {
-        y += space;
         let thumb = new makeThumb();
         let thumbTween = KUTE.fromTo(thumb,{translateX: -200, translateY: y, rotateY: 180, width: 0, height: 0},{translateX: x, translateY: y, rotateY: 0, width: 200, height: 200}, {duration: 1500});
         thumbTween.start();
+        y += space;
     }
+    x += space;
 }
