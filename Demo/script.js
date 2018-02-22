@@ -9,7 +9,7 @@ var chars = heading.innerText.split('');
 // wrap the splits into spans and build an object with these spans 
 heading.innerHTML = '<span>' + chars.join('</span><span>') + '</span>';
 var charsObject = heading.getElementsByTagName('SPAN'), l = charsObject.length;
-gridButton.addEventListener("onpointerdown", openGrid);
+gridButton.addEventListener("pointerdown", openGrid);
 
 var tween1 = KUTE.to(heading, {color: '#9C27B0'}).start();
 var tween2 = KUTE.to(heading, {color: '#47d1d1'},{duration: 1000});
@@ -47,7 +47,6 @@ for (var i=0; i<l; i++){
         {opacity:0, height: 50, fontSize:80, letterSpacing: 20}, 
         {opacity:1, height: 35, fontSize:50, letterSpacing: 0}, 
         {complete: fn, delay: delay, duration: 500, easing: 'easingCubicOut'}).start()
-
 }
 
 function startButtonAnimation(){
@@ -57,6 +56,5 @@ function startButtonAnimation(){
 function openGrid()
 {
     console.log("button");
-    location.href="grid.html";
-    
+    location.href="index2.html";    
 }
