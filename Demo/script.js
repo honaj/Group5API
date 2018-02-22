@@ -41,7 +41,7 @@ for(let i = 0; i < gridSizeX; i++)
     {
         y += space;
         let thumb = new makeThumb();
-        let thumbTween = KUTE.fromTo(thumb,{translateX: -200, translateY: y, rotateY: 180},{translateX: x, translateY: y, rotateY: 0}, {duration: 1000, parentPerspective: 0});
+        let thumbTween = KUTE.fromTo(thumb,{translateX: -200, translateY: y, rotateY: 180, width: 0, height: 0},{translateX: x, translateY: y, rotateY: 0, width: 200, height: 200}, {duration: 1500});
         thumbTween.start();
     }
 }
