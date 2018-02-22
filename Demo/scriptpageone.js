@@ -10,22 +10,24 @@ heading.innerHTML = '<span>' + chars.join('</span><span>') + '</span>';
 var charsObject = heading.getElementsByTagName('SPAN'), l = charsObject.length;
 
 var tween1 = KUTE.to(heading, {color: '#9C27B0'}).start();
-var tween2 = KUTE.to(heading, {color: '#069'});
-var tween3 = KUTE.to(heading, {color: '#069'});
-var tween4 = KUTE.to(heading, {color: '#0000ff'});
-var tween5 = KUTE.to(heading, {color: '#33cc33'} );
-var tween6 = KUTE.to(heading, {color: '#ffff00'});
-var tween7 = KUTE.to(heading, {color: '#ff1a1a'});
-var tween8 = KUTE.to(heading, {color: '#00ccff'});
-var tween9 = KUTE.to(heading, {color: '#9C27B0'},{duration: 1500});
+var tween2 = KUTE.to(heading, {color: '#47d1d1'},{duration: 1000});
+var tween3 = KUTE.to(heading, {color: '#ff1ab3'},{duration: 1000});
+var tween4 = KUTE.to(heading, {color: '#0000ff'},{duration: 1000});
+var tween5 = KUTE.to(heading, {color: '#33cc33'},{duration: 1000});
+var tween6 = KUTE.to(heading, {color: '#ffff00'},{duration: 1000});
+var tween7 = KUTE.to(heading, {color: '#ff1a1a'},{duration: 1000});
+var tween8 = KUTE.to(heading, {color: '#00ccff'},{duration: 1000});
+var tween9 = KUTE.to(heading, {color: '#ff751a'},{duration: 1000});
 
 tween1.chain(tween2);
 tween2.chain(tween3);
 tween3.chain(tween4);
 tween4.chain(tween5);
-tween5.chain(tween6,tween9);
+tween5.chain(tween6);
 tween6.chain(tween7);
 tween7.chain(tween8);
+tween8.chain(tween9);
+tween8.chain(tween1);
 
 // built the tween objects
 var tween1 = KUTE.fromTo(
