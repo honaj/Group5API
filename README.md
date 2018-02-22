@@ -9,7 +9,7 @@ The detailed project shows example of SVG path animation, scale animation, clip 
 The easing functions has been applied to all movements. This provides unique curve that adds natural pace. 
 
 https://github.com/honaj/Group5API
-
+https://slow-snarl.glitch.me/
 
 ## KUTE.js
 KUTE.js is a native JavaScript animation engine, delivering easy to use methods to set up high performance, cross-browser animations.<br>
