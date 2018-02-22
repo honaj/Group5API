@@ -1,6 +1,7 @@
 // grab elements to play with
 var heading = document.getElementsByTagName('H1')[0];
-var button = document.getElementsByTagName('DIV')[0];                                            
+var button = document.getElementsByTagName('DIV')[0];
+var gridButton = document.getElementById("gridButton");                                  
 
 // let's split the heading text by character
 var chars = heading.innerText.split('');
@@ -8,6 +9,7 @@ var chars = heading.innerText.split('');
 // wrap the splits into spans and build an object with these spans 
 heading.innerHTML = '<span>' + chars.join('</span><span>') + '</span>';
 var charsObject = heading.getElementsByTagName('SPAN'), l = charsObject.length;
+gridButton.addEventListener("onpointerdown", openGrid);
 
 var tween1 = KUTE.to(heading, {color: '#9C27B0'}).start();
 var tween2 = KUTE.to(heading, {color: '#47d1d1'},{duration: 1000});
@@ -52,3 +54,9 @@ function startButtonAnimation(){
     tween1.start()
 }
 
+function openGrid()
+{
+    console.log("button");
+    location.href="grid.html";
+    
+}
