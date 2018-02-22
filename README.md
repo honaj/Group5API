@@ -15,7 +15,7 @@ https://github.com/honaj/Group5API
 KUTE.js is a native JavaScript animation engine, delivering easy to use methods to set up high performance, cross-browser animations.<br>
 Along with a simple jQuery plugin, KUTE.js packs plugins for presentation attributes, SVG transform, draw SVG strokes and path morphing, text string write up or number countdowns, plus additional CSS properties like colors, border-radius or typographic properties.
 
-http://thednp.github.io/kute.js/index.html
+http://thednp.github.io/kute.js/index.html <br>
 https://github.com/thednp/kute.js
 
 
