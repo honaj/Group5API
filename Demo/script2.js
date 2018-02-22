@@ -1,11 +1,6 @@
-function startButtonAnimation(){
-    tween1.start()
-}
-
 let x = 0;
 let y = 0;
 let space = 250;
-let thumbs = [];
 
 function makeThumb()
 {
@@ -32,10 +27,6 @@ function makeThumb()
 
     function openNextPage()
     {
-        for(let i = 0; i < thumbs.length; i++)
-        {
-            thumbs[i].style.display = "none";
-        }
         location.href="index3.html";
     }
 }
@@ -46,7 +37,6 @@ for(let i = 0; i < Math.round(window.innerWidth / space); i++)
     for(let i = 0; i < Math.round(window.innerHeight / space); i++)
     {
         let thumb = new makeThumb();
-        thumbs.push(thumb);
         let thumbTween = KUTE.fromTo(thumb,{translateX: -200, translateY: y, rotateY: 180, width: 0, height: 0},{translateX: x, translateY: y, rotateY: 0, width: 200, height: 200}, {duration: 1500});
         thumbTween.start();
         y += space;
