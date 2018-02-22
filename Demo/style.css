@@ -36,3 +36,58 @@ h1 span {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+#detailed {
+    height: 95%; width: 95%;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.bgbox {
+    height: 80px;
+    position: absolute; 
+    background-color: rgb(240, 240, 240); 
+    top: 140px;
+}
+
+.image {
+    width: 500px; height: 650px;
+    position: absolute; top:50px; left: 50px;
+    border: transparent;
+    background-image: url('IMG_1001.jpg');
+    border-radius: 15px;
+}
+
+/* #title {
+    position: absolute; top: 50px;
+    width: 100%;
+    height: 130px;
+  } */
+
+#title {
+    position: absolute; top: 50px; left: 700px;
+    height: 150px;
+}
+
+.description {
+    width: 700px; 
+    position: absolute; left: 600px;
+    color: rgb(82, 82, 82);
+    font-size: 18px;
+    /* line-height:70px; */
+    /* text-align: center; */
+    font-family: sans-serif;
+    opacity: 1;
+}
+.a {top:250px}
+.b {top:500px}
