@@ -27,7 +27,7 @@ function makeThumb()
 
     function enlarge()
     {
-        console.log("enlarge");
+        //Needs resize, translation to center and changed border radius
     }
 }
 
